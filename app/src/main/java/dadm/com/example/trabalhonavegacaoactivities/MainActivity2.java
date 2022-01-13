@@ -46,25 +46,18 @@ public class MainActivity2 extends AppCompatActivity {
     public void adicionar(View view){
         //passar valor pra primeira activity, necessariamente preciso instanciar o intent
         Intent intent = new Intent();
-        DAOTime daoTime = new DAOTime();
 
-//        //pegando o valor do campo
-//        String nome = editTextNome.getText().toString();
-//        String cores = editTextColor.getText().toString();
-//        String regiao = editTextColor.getText().toString();
-//        //passando valor de fato
-//        intent.putExtra("nome", nome);
-//        intent.putExtra("cores", cores);
-//        intent.putExtra("regiao", regiao);
-//
-//        setResult(RESULT_ADD, intent);
+        //pegando o valor do campo
+        String nome = editTextNome.getText().toString();
+        String cores = editTextColor.getText().toString();
+        String regiao = editTextColor.getText().toString();
+        //passando valor de fato
+        intent.putExtra("nome", nome);
+        intent.putExtra("cores", cores);
+        intent.putExtra("regiao", regiao);
 
-        Time time = new Time(editTextNome.getText().toString(), editTextRegion.getText().toString(), editTextColor.getText().toString());
-        daoTime.add(time).addOnSuccessListener(suc ->{
-            Toast.makeText(this, "Time is inserted", Toast.LENGTH_SHORT).show();
-        }).addOnFailureListener(er ->{
-            Toast.makeText(this, ""+er.getMessage(), Toast.LENGTH_SHORT).show();
-        });
+        setResult(RESULT_ADD, intent);
+
         finish();
     }
 }
