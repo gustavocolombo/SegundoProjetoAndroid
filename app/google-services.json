@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188443804217",
+    "project_id": "terceirotrabalhoandroid",
+    "storage_bucket": "terceirotrabalhoandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188443804217:android:ec31867fff62033db983e8",
+        "android_client_info": {
+          "package_name": "dadm.com.example.trabalhonavegacaoactivities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188443804217-qn8td0nrt6tj81c5ubor4v1dbsrbvvp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaNOdPfsTaetgWwqTYs4IZ13eBRNAxCEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188443804217-qn8td0nrt6tj81c5ubor4v1dbsrbvvp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
